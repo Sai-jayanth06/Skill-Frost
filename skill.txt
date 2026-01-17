@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skill Swap Platform</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <h1>Skill Swap</h1>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#dashboard">Dashboard</a></li>
+      <li><a href="#login">Login</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h2>Learn & Teach Skills Without Money</h2>
+    <p>Earn time credits by teaching and use them to learn new skills.</p>
+    <button onclick="alert('Signup Coming Soon')">Get Started</button>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="features">
+    <h2>Platform Features</h2>
+    <div class="grid">
+      <div class="card">User Profiles</div>
+      <div class="card">Skill Exchange</div>
+      <div class="card">Time Credit System</div>
+      <div class="card">Peer-to-Peer Sessions</div>
+      <div class="card">Chat & Scheduling</div>
+      <div class="card">Ratings & Feedback</div>
+    </div>
+  </section>
+
+  <!-- Dashboard -->
+  <section id="dashboard" class="dashboard">
+    <h2>User Dashboard</h2>
+    <p>Skills to Teach</p>
+    <input type="text" placeholder="Add a skill" />
+    <button>Add</button>
+
+    <p>Available Credits: <strong>0</strong></p>
+  </section>
+
+  <!-- Login -->
+  <section id="login" class="login">
+    <h2>Login</h2>
+    <input type="email" placeholder="Email" />
+    <input type="password" placeholder="Password" />
+    <button>Login</button>
+    <button class="google">Login with Google</button>
+  </section>
+
+  <footer>
+    <p>© 2026 Skill Swap Platform | Hackathon Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
